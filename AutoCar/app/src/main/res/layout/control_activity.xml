@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212121"
+    android:background="#cecece"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -11,7 +11,7 @@
         android:text="Car Controller"
         android:id="@+id/textView2"
         android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#f44336"
+        android:textColor="#6c6468"
         android:textSize="23sp"
         android:layout_gravity="center"
         android:layout_marginBottom="120dp"/>
@@ -23,11 +23,11 @@
         android:layout_height="60dp"
         android:fadingEdge="none"
         android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#212121"
         android:textSize="30sp"
         android:textStyle="bold"
         android:text="▲"
-         />
+        android:backgroundTint="#7cafb4"
+        android:textColor="#e7e7e7" />
 
 
     <LinearLayout
@@ -44,10 +44,24 @@
             android:fadingEdge="none"
             android:fontFamily="sans-serif-smallcaps"
             android:text="◄"
-            android:textColor="#212121"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:layout_margin="40dp"/>
+            android:layout_margin="40dp"
+            android:backgroundTint="#7cafb4"
+            android:textColor="#e7e7e7"/>
+
+        <Button
+            android:id="@+id/pause_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:fadingEdge="none"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="•"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_margin="40dp"
+            android:backgroundTint="#7cafb4"
+            android:textColor="#e7e7e7"/>
 
         <Button
             android:id="@+id/right_btn"
@@ -56,10 +70,11 @@
             android:fadingEdge="none"
             android:fontFamily="sans-serif-smallcaps"
             android:text="►"
-            android:textColor="#212121"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:layout_margin="40dp"/>
+            android:layout_margin="40dp"
+            android:backgroundTint="#7cafb4"
+            android:textColor="#e7e7e7"/>
 
 
     </LinearLayout>
@@ -72,9 +87,10 @@
         android:fadingEdge="none"
         android:fontFamily="sans-serif-smallcaps"
         android:text="▼"
-        android:textColor="#212121"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:backgroundTint="#7cafb4"
+        android:textColor="#e7e7e7"/>
 
 
     <EditText
@@ -82,24 +98,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter location"
-        android:textColorHint="@color/white" />
+        android:textColorHint="#6c6468"
+        android:layout_margin="20dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
     <Button
-        android:id="@+id/dis_btn"
+        android:id="@+id/stop_btn"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:fadingEdge="none"
         android:fontFamily="sans-serif-smallcaps"
         android:text="STOP"
-        android:textColor="#212121"
         android:textSize="20sp"
         tools:typeface="monospace"
         android:layout_marginTop="40dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#7cafb4"
+        android:textColor="#e7e7e7"/>
+
 
     <Button
         android:id="@+id/start_btn"
@@ -108,10 +127,11 @@
         android:fadingEdge="none"
         android:fontFamily="sans-serif-smallcaps"
         android:text="START"
-        android:textColor="#212121"
         android:textSize="20sp"
         tools:typeface="monospace"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#7cafb4"
+        android:textColor="#e7e7e7"/>
     </LinearLayout>
 </LinearLayout>

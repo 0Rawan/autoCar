@@ -1,51 +1,37 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#212121">
+    android:background="#cecece"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Paired Devices"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
         android:fontFamily="sans-serif-smallcaps"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#f44336"
-        android:textIsSelectable="false" />
+        android:textColor="#6c6468"
+        android:textIsSelectable="false"
+        android:layout_gravity="center"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Paired Devices"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:textColor="#212121"
-        android:fontFamily="sans-serif-smallcaps"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:background="#f44336" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
-        android:layout_below="@+id/textView"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_above="@+id/button" />
+        android:layout_above="@+id/button"
+        android:layout_weight="5"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/cover"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView" />
+        android:text="Paired Devices"
+        android:id="@+id/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#7cafb4"
+        android:textColor="#e7e7e7"
+        android:layout_weight="1" />
 
-</RelativeLayout>
+
+</LinearLayout>

@@ -17,9 +17,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>zz
         </activity>
-        <activity android:name=".LedControl">
+        <activity android:name=".CarControl">
 
         </activity>
     </application>
