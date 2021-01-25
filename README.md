@@ -24,8 +24,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![schematic][schematic]]
-[![Car][car]]
+![schematic][schematic]
+![Car][car]
 This is a project made by [Salma Musa Eid](https://github.com/slamamusa) and [Rawan Kamal Mustafa](https://github.com/0Rawan).
 AutoCar created with Arduino to make a car move autonomously, it can be a great start to autonomous vehicle projects, and it can work as a small delivery vehicle.
 
@@ -99,6 +99,6 @@ Distributed under the  Apache License. See `LICENSE` for more information.
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/0Rawan/autoCar.svg?style=for-the-badge
 [license-url]: https://github.com/0Rawan/autoCar/LICENSE.txt
-[car]: images/car.jpg
-[schematic]: images/schematic.jpg
+[car]: images/car.jpg {:height="50%" width="50%"}
+[schematic]: images/schematic.jpg {:height="50%" width="50%"}
 
