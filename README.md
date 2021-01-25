@@ -27,7 +27,7 @@
 <img src="images/schematic.jpg" width="200" hight="200" />
 <img src="images/car.jpg" width="200" hight="200" />
 
-This is a project made by [Salma Musa Eid](https://github.com/slamamusa) and [Rawan Kamal Mustafa](https://github.com/0Rawan).
+This is a project made by [Salma Musa Eid](https://github.com/salmamusa) and [Rawan Kamal Mustafa](https://github.com/0Rawan).
 AutoCar created with Arduino to make a car move autonomously, it can be a great start to autonomous vehicle projects, and it can work as a small delivery vehicle.
 
 ### Built With
