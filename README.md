@@ -100,5 +100,5 @@ Distributed under the  Apache License. See `LICENSE` for more information.
 [license-shield]: https://img.shields.io/github/license/0Rawan/autoCar.svg?style=for-the-badge
 [license-url]: https://github.com/0Rawan/autoCar/LICENSE.txt
 [car]: images/car.jpg
-[schematic] images/schematic.jpg
+[schematic]: images/schematic.jpg
 
