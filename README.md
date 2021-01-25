@@ -25,7 +25,8 @@
 ## About The Project
 
 <img src="images/schematic.jpg" width="200" hight="200" />
-[![Car][car]]
+<img src="images/car.jpg" width="200" hight="200" />
+
 This is a project made by [Salma Musa Eid](https://github.com/slamamusa) and [Rawan Kamal Mustafa](https://github.com/0Rawan).
 AutoCar created with Arduino to make a car move autonomously, it can be a great start to autonomous vehicle projects, and it can work as a small delivery vehicle.
 
@@ -47,28 +48,11 @@ Aruino IDE
 
 ## Usage
 
-we recommend that if you willing to tweak the app on your machine to download the autoCar/AutoCar/app/src/main/res folder and autoCar/AutoCar/app/src/main/java/com/example/autocar to avoid compatibility errors in Android studio.
+we recommend that if you willing to tweak the app on your machine to download the `autoCar/AutoCar/app/src/main/res` folder and `autoCar/AutoCar/app/src/main/java/com/example/autocar` to avoid compatibility errors in Android studio.
 
 For arduino code download it directly.
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 
@@ -99,6 +83,3 @@ Distributed under the  Apache License. See `LICENSE` for more information.
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/0Rawan/autoCar.svg?style=for-the-badge
 [license-url]: https://github.com/0Rawan/autoCar/LICENSE.txt
-[car]: images/car.jpg {:height="50%" width="50%"}
-[schematic]: images/schematic.jpg {:height="50%" width="50%"}
-
